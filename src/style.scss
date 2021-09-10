@@ -1,0 +1,51 @@
+.app{
+    font-family: sans-serif;
+    padding: 20px;
+    .container{
+        display:flex;
+        flex-direction: row;
+
+    
+    .select{
+        width: 20%;
+    }
+    .list-container{
+        display: flex;
+        flex-direction: column;
+
+        .list{
+            display: flex;
+            flex-direction: row;
+            margin: 8px 0 0 0;
+            p{
+                margin: 0;
+            }
+            li{
+                background-color: hsl(0, 0%, 90%);
+                border-radius: 2px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                margin: 2px;
+                min-width: 0;
+                box-sizing: border-box;
+                flex-direction: row;
+                justify-content: space-between;
+                span{
+                   img {
+                    width: 20px;
+                    }
+                }
+            }
+        }
+        .remove{
+            width: 150px;
+            align-self: center;
+            margin: 14px;
+        }
+
+    }
+    
+    }
+}

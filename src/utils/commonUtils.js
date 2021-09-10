@@ -1,0 +1,1 @@
+export const strictValidArray = (arr)=> arr && Array.isArray(arr);
